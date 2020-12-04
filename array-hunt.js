@@ -100,7 +100,7 @@ $(document).ready(function () {
         Find the first string that contains an 'n'.
         Output it to td#firstEnn
          */
-        $("td#firstEnn").text(myArray[myArray.indexOf('n')]);
+        $("td#firstEnn").text(myArray[myArray.find(n)]);
 
 
         /*
