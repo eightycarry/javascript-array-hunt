@@ -93,12 +93,14 @@ $(document).ready(function () {
         Find the first and last string in the array.
         Output them to td#firstLast
          */
+        $("td#firstLast").text(myArray[0] + ", " + myArray[myArray.length-1]);
 
 
         /*
         Find the first string that contains an 'n'.
         Output it to td#firstEnn
          */
+        $("td#firstEnn").text(myArray[myArray.indexOf('n')]);
 
 
         /*
